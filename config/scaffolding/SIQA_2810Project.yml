@@ -12,6 +12,11 @@ packages:
   gitUrl: https://github.com/vijetadixit
   gitUsername: siqagituser
   gitBranch: Test
+- name: TPP_services_in_FCS
+  gitServerName: SIQA_kvv_wm_io
+  gitUrl: https://github.webmethods.io/kvv
+  gitUsername: kvv
+  gitBranch: main
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
