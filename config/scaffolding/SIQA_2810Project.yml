@@ -23,39 +23,15 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: softwareag
 services:
-- serviceName: project.siqa_2810.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1
-  packages:
-  - name: SIQA_2810Project
-    version: "1.0"
-  - name: TPP_services_in_FCS
-    version: "1.0"
-  - name: SIQA_OriginTest_OnPremAssets
-    version: "1.0"
-- serviceName: project.siqa_2810.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2
-  packages:
-  - name: SIQA_2810Project
-    version: "1.0"
-  - name: TPP_services_in_FCS
-    version: "1.0"
-  - name: SIQA_OriginTest_OnPremAssets
-    version: "1.0"
-- serviceName: project.siqa_2810.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_3
-  packages:
-  - name: SIQA_2810Project
-    version: "1.0"
-  - name: TPP_services_in_FCS
-    version: "1.0"
-  - name: SIQA_OriginTest_OnPremAssets
-    version: "1.0"
-- serviceName: project.siqa_2810.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
-  packages:
-  - name: SIQA_2810Project
-    version: "1.0"
-  - name: TPP_services_in_FCS
-    version: "1.0"
-  - name: SIQA_OriginTest_OnPremAssets
-    version: "1.0"
 - serviceName: project.siqa_2810.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_2810Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
+- serviceName: project.siqa_2810.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:testJDBC
   packages:
   - name: SIQA_2810Project
     version: "1.0"
